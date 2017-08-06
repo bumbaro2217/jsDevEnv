@@ -24,7 +24,7 @@ app.get('/users', function(req, res) {
   res.json([
     {"id": 1,"firstName":"Bob","lastName":"Smith","email":"bob@gmail.com"},
     {"id": 2,"firstName":"Tam","lastName":"Norton","email":"tnorton@gmail.com"},
-    {"id": 3,"firstName":"Lee","lastName":"Tina","email":"tina.lee@gmail.com"},
+    {"id": 3,"firstName":"Lee","lastName":"Tina","email":"tina.lee@gmail.com"}
   ]);
 });
 
